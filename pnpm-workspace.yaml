@@ -2,6 +2,9 @@ packages:
   - src/ModInstaller.Native.TypeScript
   - src/ModInstaller.IPC.TypeScript
 
+allowBuilds:
+  winapi-bindings: false
+
 catalog:
   7zip-bin: ^5.2.0
   '@types/node': ^22.0.0
